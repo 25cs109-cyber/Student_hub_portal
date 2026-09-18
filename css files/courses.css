@@ -1,0 +1,8 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* courses.html - Courses page styles */
+
+.courses-page .data-table a {
+    font-weight: 600;
+}

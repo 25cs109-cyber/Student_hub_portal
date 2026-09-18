@@ -1,0 +1,9 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* attendance.html - Attendance page styles */
+
+.attendance-page .content-box > p {
+    font-size: 1.05rem;
+    margin-bottom: 16px;
+}

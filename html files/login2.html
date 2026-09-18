@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form id="myForm">
+
+        <label>First Name:</label>
+        <input type="text" id="name">
+        <br><br>
+
+        <label>Middle Name:</label>
+        <input type="text" id="name">
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" id="name">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="text" id="email">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" id="age">
+        <br><br>
+      
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+<script>
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let age = document.getElementById("age").value;
+
+    if (name == "") {
+        alert("Please enter your name");
+        return;
+    }if (email == "") {
+        alert("Please enter your email");
+        return;
+    }
+    if (password == "") {
+        alert("Please enter your password");
+        return;
+    }
+
+    if (age == "") {
+        alert("Please enter your age");
+        return;
+    }
+
+   
+
+    alert("Form submitted successfully!");
+
+});
+</script>
+</body>
+</html>

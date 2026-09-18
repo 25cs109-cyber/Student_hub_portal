@@ -1,0 +1,66 @@
+@import url('common.css');
+
+/* contact.html - Contact page styles */
+
+.contact-info-box {
+width: 48%;
+display: inline-block;
+vertical-align: top;
+background-color: #ffffff;
+padding: 24px 30px;
+border: 1px solid #e2e8f0;
+}
+
+.contact-form-box {
+width: 48%;
+display: inline-block;
+vertical-align: top;
+margin-left: 4%;
+}
+
+
+/* Mobile-first Responsive Design */
+
+.form-row {
+display: grid;
+grid-template-columns: 1fr;
+gap: 20px;
+}
+
+.contact-info-box,
+.contact-form-box {
+width: 100%;
+margin: 0;
+box-sizing: border-box;
+height: auto;
+min-height: 0;
+}
+
+/* Make contact information visible */
+
+.contact-info-box p,
+.contact-info-box strong {
+color: #1f4168;
+}
+
+.form-section form {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.form-section label {
+color: #1f4168;
+font-weight: 500;
+}
+
+
+/* Desktop */
+
+@media (min-width: 768px) {
+
+    .form-row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

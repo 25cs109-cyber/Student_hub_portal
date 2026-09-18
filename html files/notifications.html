@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Hub Portal | Notifications</title>
+
+    <link rel="stylesheet" href="../css files/notifications.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="site-header">
+
+        <div class="container">
+
+            <h1 class="logo">Student Hub Portal</h1>
+
+            <p class="tagline">Connect. Learn. Grow.</p>
+
+        </div>
+
+    </header>
+
+
+    <!-- Dashboard Layout -->
+
+    <div class="dashboard-layout container">
+
+
+        <!-- Sidebar -->
+
+        <aside class="dashboard-sidebar">
+
+            <div class="flexbox">
+
+                <div class="box">
+                    <a href="dashboard.html">Dashboard</a>
+                </div>
+
+                <div class="box">
+                    <a href="profile.html">Profile</a>
+                </div>
+
+                <div class="box">
+                    <a href="courses.html">Courses</a>
+                </div>
+
+                <div class="box">
+                    <a href="attendance.html">Attendance</a>
+                </div>
+
+                <div class="box">
+                    <a href="timetable.html">Time-Table</a>
+                </div>
+
+                <div class="box">
+                    <a href="assignment.html">Assignment</a>
+                </div>
+
+                <div class="box">
+                    <a href="result.html">Result</a>
+                </div>
+
+                <div class="box">
+                    <a href="notifications.html" class="active">
+                        Notifications
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="settings.html">Settings</a>
+                </div>
+
+                <div class="box">
+                    <a href="contact.html">Contact / Help</a>
+                </div>
+
+                <div class="box">
+                    <a href="index.html">Home</a>
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+
+        <div class="dashboard-main">
+
+
+            <!-- Breadcrumb -->
+
+            <p class="breadcrumb">
+
+                <a href="dashboard.html">Dashboard</a>
+
+                &gt; Notifications
+
+            </p>
+
+
+            <!-- ================================= -->
+            <!-- Notification Banner -->
+            <!-- ================================= -->
+
+            <div class="notification-banner" id="notificationBanner">
+
+                <div class="notification-icon">
+                    🔔
+                </div>
+
+                <div class="notification-text">
+
+                    <strong>Important:</strong>
+
+                    Web Development Practical deadline
+                    is approaching!
+
+                </div>
+
+
+                <!-- Opens Modal -->
+
+                <button
+                    class="notification-button"
+                    id="viewNotification"
+                    type="button">
+
+                    View Details →
+
+                </button>
+
+
+                <!-- Closes Banner -->
+
+                <button
+                    class="close-notification"
+                    id="closeNotification"
+                    type="button">
+
+                    ×
+
+                </button>
+
+            </div>
+
+
+
+            <!-- ================================= -->
+            <!-- Notification Modal -->
+            <!-- ================================= -->
+
+            <div
+                class="modal"
+                id="notificationModal">
+
+                <div class="modal-content">
+
+
+                    <!-- Close Modal -->
+
+                    <button
+                        class="close-modal"
+                        id="closeModal"
+                        type="button">
+
+                        ×
+
+                    </button>
+
+
+                    <h2>
+                        🔔 Important Notification
+                    </h2>
+
+
+                    <p>
+                        Web Development Practical deadline
+                        is approaching!
+                    </p>
+
+
+                    <p>
+                        Please complete and submit your
+                        practical work before the deadline.
+                    </p>
+
+
+                    <a
+                        href="view-assignment.html"
+                        class="modal-button">
+
+                        View Assignment
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================================= -->
+            <!-- Notifications Table -->
+            <!-- ================================= -->
+
+            <section class="content-box">
+
+                <h2>Notifications</h2>
+
+
+                <table class="data-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Date</th>
+
+                            <th>Title</th>
+
+                            <th>Type</th>
+
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>
+                                Jul 20, 2026
+                            </td>
+
+                            <td>
+                                Web Dev Practical
+                                deadline reminder
+                            </td>
+
+                            <td>
+                                Assignment
+                            </td>
+
+                            <td>
+
+                                <a href="view-assignment.html">
+                                    View
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                Jul 18, 2026
+                            </td>
+
+                            <td>
+                                Mid-sem exam schedule
+                                published
+                            </td>
+
+                            <td>
+                                Exam
+                            </td>
+
+                            <td>
+
+                                <a href="timetable.html">
+                                    View
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                Jul 15, 2026
+                            </td>
+
+                            <td>
+                                Attendance below 75%
+                                in OS
+                            </td>
+
+                            <td>
+                                Warning
+                            </td>
+
+                            <td>
+
+                                <a href="attendance.html">
+                                    View
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                Jul 10, 2026
+                            </td>
+
+                            <td>
+                                Semester 2 result
+                                declared
+                            </td>
+
+                            <td>
+                                Result
+                            </td>
+
+                            <td>
+
+                                <a href="semester-result.html">
+                                    View
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+
+
+            <!-- Notification Actions -->
+
+            <div class="action-links">
+
+                <h3>
+                    Notification Actions
+                </h3>
+
+
+                <a href="announcement.html">
+
+                    View All Announcements
+
+                </a>
+
+
+                <a
+                    href="dashboard.html"
+                    class="secondary">
+
+                    Back to Dashboard
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+
+                &copy; 2026 Student Hub Portal.
+
+                Web Development Practical 1 &amp; 2.
+
+            </p>
+
+
+            <p>
+
+                <a href="index.html">
+                    Back to Home
+                </a>
+
+                |
+
+                <a href="login.html">
+                    Logout
+                </a>
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ================================= -->
+    <!-- JavaScript -->
+    <!-- ================================= -->
+
+    <script>
+
+        // Get elements
+
+        const notificationBanner =
+            document.getElementById("notificationBanner");
+
+        const viewNotification =
+            document.getElementById("viewNotification");
+
+        const closeNotification =
+            document.getElementById("closeNotification");
+
+        const notificationModal =
+            document.getElementById("notificationModal");
+
+        const closeModal =
+            document.getElementById("closeModal");
+
+
+        // Open Modal
+
+        viewNotification.addEventListener("click", function () {
+
+            notificationModal.style.display = "flex";
+
+        });
+
+
+        // Close Notification Banner
+
+        closeNotification.addEventListener("click", function () {
+
+            notificationBanner.style.display = "none";
+
+        });
+
+
+        // Close Modal
+
+        closeModal.addEventListener("click", function () {
+
+            notificationModal.style.display = "none";
+
+        });
+
+
+        // Close Modal by clicking outside the modal box
+
+        window.addEventListener("click", function (event) {
+
+            if (event.target === notificationModal) {
+
+                notificationModal.style.display = "none";
+
+            }
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>

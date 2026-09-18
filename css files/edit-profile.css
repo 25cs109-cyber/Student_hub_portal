@@ -1,0 +1,23 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* edit-profile.html - Edit Profile page styles */
+
+.edit-profile-page .form-section {
+    max-width: 600px;
+}
+
+.cancel-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #e2e8f0;
+    color: #2d3748;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cancel-btn:hover {
+    background: #cbd5e0;
+    color: #2d3748;
+    text-decoration: none;
+}

@@ -1,0 +1,139 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* dashboard.html - Dashboard hub page styles */
+
+.dashboard-page .page-header {
+    margin-bottom: 24px;
+  
+}
+/* =========================
+   IMAGE SLIDER
+   ========================= */
+
+.slider {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.image-box {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Arrows on Image */
+
+.image-box button {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(0, 0, 0, 0.6);
+
+    color: white;
+
+    font-size: 25px;
+
+    cursor: pointer;
+}
+
+
+#prevBtn {
+    left: 15px;
+}
+
+
+#nextBtn {
+    right: 15px;
+}
+
+
+.image-box button:hover {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+
+/* Slider Text */
+
+.slider h2 {
+    margin-top: 15px;
+}
+
+
+.slider p {
+    margin-bottom: 10px;
+}
+
+
+/* Dots */
+
+#dots {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .slider {
+        width: 95%;
+    }
+
+    .image-box {
+        height: 280px;
+    }
+
+}
+/* Fix Slider Image Fitting */
+
+.image-box {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #e2e8f0;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+/* Keep arrows on the image */
+
+#prevBtn {
+    left: 15px;
+}
+
+#nextBtn {
+    right: 15px;
+}

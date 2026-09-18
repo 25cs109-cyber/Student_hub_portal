@@ -1,0 +1,85 @@
+@import url('common.css');
+
+/* announcements.html - Announcements page styles */
+
+.event-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.event-card.clickable {
+  cursor: pointer;
+  background: #eef6ff;
+  transition: background 0.3s;
+}
+
+.event-card.clickable:hover {
+  background: #dceeff;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  text-align: center;
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+/* Mobile-first Responsive Design */
+
+.content-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.event-card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Tablet and Desktop */
+
+@media (min-width: 600px) {
+  .content-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal-content {
+    width: 60%;
+  }
+}
+
+
+/* Mobile */
+
+@media (max-width: 599px) {
+  .modal-content {
+    width: 90%;
+    margin: 30% auto;
+  }
+}

@@ -1,0 +1,13 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* view-assignment.html - View Assignment page styles */
+
+.view-assignment-page .content-box ol {
+    padding-left: 24px;
+    margin-top: 12px;
+}
+
+.view-assignment-page .content-box li {
+    margin-bottom: 8px;
+}

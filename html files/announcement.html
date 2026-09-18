@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Hub Portal | Announcements</title>
+  <link rel="stylesheet" href="../css files/announcement.css">
+  
+
+</head>
+<body class="announcements-page">
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Student Hub Portal</h1>
+      <p class="tagline">Connect. Learn. Grow.</p>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="announcement.html" class="active">Announcements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="page-header">
+      <h2>Announcements</h2>
+      <p>Latest updates and notices from the college administration.</p>
+    </section>
+
+    <section class="content-box">
+      <!-- These show info directly -->
+      <article class="event-card">
+        <h3>Semester 3 Registration Opens</h3>
+        <p><strong>Date:</strong> August 1, 2026</p>
+        <p>All Semester 3 students must complete registration through the portal before the deadline.</p>
+      </article>
+
+      <!-- These trigger popup -->
+      <article class="event-card clickable" data-message="No timetable inserted now. Kindly check afterwards.">
+        <h3>Mid-Semester Exam Schedule</h3>
+        <p><strong>Date:</strong> August 10–15, 2026</p>
+        <p><em>Click to check updates</em></p>
+      </article>
+
+      <article class="event-card clickable" data-message="No updates for now. Yay!">
+        <h3>Web Development Practical Submission</h3>
+        <p><strong>Deadline:</strong> July 25, 2026</p>
+        <p><em>Click to check updates</em></p>
+      </article>
+
+      <!-- These show info directly -->
+      <article class="event-card">
+        <h3>Library Extended Hours</h3>
+        <p><strong>During:</strong> Exam Week</p>
+        <p>Library will remain open until 9 PM during mid-semester examinations.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modal-text"></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Student Hub Portal. Web Development Practical 1 &amp; 2.</p>
+      <p>Contact: <a href="contact.html">Contact Us</a></p>
+    </div>
+  </footer>
+
+  <script src="../js files/announcement.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,13 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* grade-card.html - Grade Card page styles */
+
+.grade-card-page .content-box em {
+    color: #718096;
+    font-size: 0.95rem;
+}
+
+.grade-card-page .grade-note {
+    margin-top: 16px;
+}

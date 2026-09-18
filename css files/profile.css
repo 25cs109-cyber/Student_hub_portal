@@ -1,0 +1,55 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* profile.html - Profile page styles */
+
+.profile-page .info-grid {
+    margin-top: 8px;
+}
+
+
+/* Profile Information - Mobile First */
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+.info-item {
+    padding: 12px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+}
+
+
+/* Dashboard Navigation */
+
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexbox .box {
+    flex: 1;
+    text-align: center;
+}
+
+.flexbox .box a {
+    padding: 10px 5px;
+    font-size: 15px;
+    white-space: normal;
+}
+
+
+/* Desktop */
+
+@media (min-width: 768px) {
+
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

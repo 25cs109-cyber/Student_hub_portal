@@ -1,0 +1,24 @@
+.dark-mode {
+    background-color: #0F172A;
+    color: #F8FAFC;
+}
+
+.dark-mode .card {
+    background-color: #1E293B;
+    color: #F8FAFC;
+}
+
+.dark-mode p {
+    color: #CBD5E1;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: #F8FAFC;
+}
+
+.dark-mode .announcements {
+    background-color: #1E293B;
+    color: #F8FAFC;
+}

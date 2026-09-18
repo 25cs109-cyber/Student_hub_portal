@@ -1,0 +1,13 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* course-details.html - Course Details page styles */
+
+.course-details-page .content-box ul {
+    padding-left: 24px;
+    margin-top: 12px;
+}
+
+.course-details-page .content-box li {
+    margin-bottom: 6px;
+}

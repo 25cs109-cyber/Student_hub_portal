@@ -1,0 +1,9 @@
+@import url('common.css');
+@import url('dashboard-layout.css');
+
+/* timetable.html - Time-Table page styles */
+
+.timetable-page .data-table td:first-child {
+    font-weight: 600;
+    background-color: #f7fafc;
+}

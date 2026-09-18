@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Hub Portal | Submit Assignment</title>
+    <link rel="Stylesheet" href="../css files/submit-assignment.css">
+  
+
+   
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Student Hub Portal</h1>
+            <p class="tagline">Connect. Learn. Grow.</p>
+        </div>
+    </header>
+<!-- Light/Dark Mode Toggle Button -->
+
+
+    <div class="dashboard-layout container">
+        <aside class="dashboard-sidebar">
+           <div class="flexbox">
+        <div class="box">
+            <a href="dashboard.html">Dashboard</a>
+        </div>
+        <div class="box">
+            <a href="profile.html">Profile</a>
+        </div>
+        <div class="box">
+             <a href="courses.html">Courses</a>
+        </div>
+        <div class="box">
+            <a href="attendance.html">Attendance</a>
+        </div>
+        <div class="box">
+             <a href="timetable.html">Time-Table</a>
+        </div>
+        <div class="box">
+            <a href="assignment.html">Assignment</a>
+        </div>
+        <div class="box">
+            <a href="result.html">Result</a>
+        </div>
+        <div class="box">
+             <a href="notifications.html">Notifications</a>
+        </div>
+        <div class="box">
+            <a href="settings.html">Settings</a>
+        </div>
+        <div class="box">
+             <a href="contact.html">Contact / Help</a>
+        </div>
+
+        <div class="box">
+            <a href="index.html">Home</a>
+        </div>
+
+    </div>
+
+        </aside>
+
+        <div class="dashboard-main">
+            <p class="breadcrumb"><a href="dashboard.html">Dashboard</a> &gt; <a href="assignment.html">Assignment</a> &gt; Submit Assignment</p>
+
+            <section class="form-section">
+                <h2>Submit Assignment</h2>
+                <form action="assignment.html" method="get">
+                    <label for="submit-subject">Subject:</label>
+                    <select id="submit-subject" name="subject">
+                        <option value="webdev">Web Development — Practical 1 &amp; 2</option>
+                        <option value="dbms">DBMS — Assignment 2</option>
+                        <option value="se">Software Engineering — Case Study</option>
+                    </select>
+
+                    <label for="submit-roll">Roll Number:</label>
+                    <input type="text" id="submit-roll" name="rollno" value="CS2024001">
+
+                    <label for="submit-file">Upload File (ZIP/PDF):</label>
+                    <input type="file" id="submit-file" name="file">
+
+                    <label for="submit-comments">Comments (optional):</label>
+                    <textarea id="submit-comments" name="comments" rows="3" placeholder="Any notes for the faculty"></textarea>
+
+                    <div class="form-buttons">
+                        <button type="submit">Submit Assignment</button>
+                        <a href="assignment.html" class="cancel-btn">Cancel</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Student Hub Portal. Web Development Practical 1 &amp; 2.</p>
+            <p><a href="index.html">Back to Home</a> | <a href="login.html">Logout</a></p>
+        </div>
+    </footer>
+</body>
+</html>
