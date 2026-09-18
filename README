@@ -1,32 +1,34 @@
 # 🎓 Student Hub Portal
 
-A simple and user-friendly **Student Hub Portal** designed to provide students with easy access to important academic information and resources in one place.
+A simple and user-friendly web portal designed to help students access important academic information and resources in one place.
 
 ## 📌 About the Project
 
-The **Student Hub Portal** is a frontend web development project created to provide a centralized platform for students.
+**Student Hub Portal** is a frontend web development project created as a centralized platform for students.
 
-The portal includes different sections such as announcements, academic resources, student information, and contact details, making it easier for students to navigate and access useful information.
+The website provides different sections for student-related information, announcements, academic resources, and communication.
 
 ## ✨ Features
 
-* 🏠 **Home Page** – Introduction to the Student Hub Portal
-* 👨‍🎓 **About Page** – Information about the portal
-* ⭐ **Features Page** – Overview of available student services
-* 📢 **Announcements** – Displays important updates and notices
-* 📞 **Contact Page** – Contact information and communication section
-* 🔐 **Login Page** – Student login interface
-* ❓ **FAQ Section** – Frequently asked questions
-* 📱 **Responsive Navigation** – Hamburger menu for smaller screens
-* 🌓 **Light/Dark Theme** – Theme switching using JavaScript
-* 🔔 **Interactive UI Components** – Dynamic elements using JavaScript
+- 🏠 Home Page
+- 👨‍🎓 About Page
+- ⭐ Features Page
+- 📢 Announcements
+- 📞 Contact Page
+- 🔐 Login Page
+- ❓ FAQ Section
+- 📱 Responsive Hamburger Menu
+- 🌓 Light/Dark Theme Switcher
+- 🔔 Interactive UI Components
+- 📋 Student-friendly navigation
 
 ## 🛠️ Technologies Used
 
-* **HTML5** – Structure of web pages
-* **CSS3** – Styling and layout
-* **JavaScript** – Interactivity and dynamic components
-* **Git & GitHub** – Version control and project management
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
 
 ## 📂 Project Structure
 
@@ -52,58 +54,3 @@ Student_hub_portal/
 │   └── ...
 │
 └── README.md
-```
-
-> The exact file structure may vary as the project is updated.
-
-## 🎯 Purpose
-
-The main purpose of this project is to practice and demonstrate frontend web development concepts while creating a useful student-oriented website.
-
-It focuses on:
-
-* Web page structure
-* CSS styling and layouts
-* JavaScript interactions
-* Responsive navigation
-* Theme switching
-* Dynamic UI components
-* Organizing a multi-page website
-
-## 🚀 How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/25cs109-cyber/Student_hub_portal.git
-```
-
-2. Open the project in **VS Code**.
-
-3. Open `index.html` in a browser.
-
-4. Navigate through the different sections of the Student Hub Portal.
-
-## 📚 Learning Outcomes
-
-Through this project, we learned how to:
-
-* Create and structure multiple HTML pages
-* Design webpages using CSS
-* Use JavaScript for interactive features
-* Create responsive navigation menus
-* Implement light/dark theme switching
-* Build dynamic UI components
-* Connect HTML, CSS, and JavaScript files
-* Manage and publish a project using GitHub
-
-## 👥 Project
-
-**Student Hub Portal**
-
-Developed as part of a **Web Development** project.
-
----
-
-⭐ If you find this project useful, feel free to explore the repository and check out the implementation.
-
